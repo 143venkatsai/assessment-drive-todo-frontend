@@ -1,0 +1,43 @@
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: "Roboto",sans-serif;
+}
+
+.item{
+    border: none;
+    outline: none;
+}
+
+.delete-btn{ 
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    color: #e63307;
+}
+
+.edit-btn{
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.icon-edit{
+    height: 20px;
+    width: 20px;
+    color: #09515c;
+}
